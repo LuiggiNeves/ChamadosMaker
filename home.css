@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+
+}
+
+.text-area {
+    width: 100%;
+    
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.text-area textarea {
+    width: 100%;
+    min-height: 60px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.container_menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: rgb(196, 196, 196);
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-pattern {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: #fff;
+    color: green;
+    font-weight: bolder;
+    border: 1px solid green;
+    margin-top: 20px;
+}
+
+.button-pattern:hover {
+
+    background-color: green;
+    border: 1px solid green;
+    color: #fff;
+}
+
+
+
+.button-pattern:active {
+    background-color: green;
+}
+
+
+.container_menu input {
+    height: 25px;
+    width: 180px;
+    border-radius: 3px;
+}
+
+.select-input select {
+    width: 180px;
+    height: 35px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+
+
+.t-center{
+    text-align: center;
+}
+
+.mod{
+    width: 90%!important;
+}
+
+
+.container-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
